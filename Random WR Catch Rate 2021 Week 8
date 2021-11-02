@@ -1,0 +1,96 @@
+#Random WR Week 8 of 2021 NFL Season
+
+players = [
+{
+"name": "Cooper Kupp",
+"catches": 63,
+"targets": 90
+},
+{
+"name": "Tyreek Hill",
+"catches": 52,
+"targets": 72
+},
+{
+"name": "Davante Adams",
+"catches": 52,
+"targets": 73
+},
+{"name": "D-Hop",
+"catches": 35,
+"targets": 49
+},
+{"name": "Scary Terry",
+"catches": 43,
+"targets": 76
+},
+{"name": "DJ Moore",
+"catches": 50,
+"targets": 81
+},
+{
+"name": "Seffon Diggs",
+"catches": 42,
+"targets": 65
+},
+{"name": "CD Lamb",
+"catches": 39,
+"targets": 57
+},
+{"name": "OBJ",
+"catches": 17,
+"targets": 34
+},
+{"name": "Pitty City",
+"catches": 45,
+"targets": 65
+},
+{"name": "Marvin Poopy Jones",
+"catches": 33,
+"targets": 54
+},
+{"name": "J'Marrrr Chaseee",
+"catches": 38,
+"targets": 59
+},
+{"name": "Marquise Brown",
+"catches": 37,
+"targets": 57
+},
+{"name": "Mr.K Allen",
+"catches": 45,
+"targets": 69
+},
+{"name": "Corey Poopy Davis",
+"catches": 24,
+"targets": 42
+},
+{"name": "Deebooo",
+"catches": 44,
+"targets": 72
+},
+{"name": "Tyler Locket",
+"catches": 41,
+"targets": 58
+},
+{"name": "Diontae J",
+"catches": 40,
+"targets": 63
+},
+{"name": "AJ Brown",
+"catches": 35,
+"targets": 54
+},
+{"name": "Chris Goblin",
+"catches": 50,
+"targets": 69
+}
+]
+
+
+for player in players:
+    name = player['name']
+    catches = player['catches']
+    targets = player['targets']
+    catch_rate = catches/targets
+    print(name + ' had a catch rate of ' + str(catch_rate))
