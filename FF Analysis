@@ -1,0 +1,6 @@
+import pandas as pd
+ff = pd.read_csv('C:/Users/workc/OneDrive/Desktop/fantasy2021.csv')
+
+
+ff = ff.sort_values("CATCH")
+ff
